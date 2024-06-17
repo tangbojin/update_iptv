@@ -1,6 +1,5 @@
 package com.tbj;
 
-import com.alibaba.fastjson.JSONObject;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import okhttp3.OkHttpClient;
@@ -50,10 +49,9 @@ public class IPTVStreamExtractor {
             }
         }
 
-        System.out.println(JSONObject.toJSONString(streamUrls));
-
 //        String m3uFilePath = "E:\\my_tv.m3u";
         String m3uFilePath = ClassLoader.getSystemResource("my_tv.m3u").getPath();
+        System.out.println("m3uFilePath:  " + m3uFilePath);
 
         try (BufferedReader reader = Files.newBufferedReader(Paths.get(m3uFilePath));
              BufferedWriter writer = Files.newBufferedWriter(Paths.get(m3uFilePath + ".tmp"))) {
@@ -66,6 +64,7 @@ public class IPTVStreamExtractor {
                     String nextLine = reader.readLine();
                     writer.write(line + System.lineSeparator());
                     writer.write(streamUrls.get("gz" + key) + System.lineSeparator());
+                    System.out.println("line:  " + key + streamUrls.get("gz" + key));
                 } else {
                     writer.write(line + System.lineSeparator());
                 }
