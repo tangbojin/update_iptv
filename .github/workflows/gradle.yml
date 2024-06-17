@@ -49,6 +49,8 @@ jobs:
           git add .
           git commit -m "更新m3u文件"
           git push -f
+      env:
+          GITHUB_TOKEN: ${{secrets.IPTV_UPDATE_ACCESS}}
 
     # NOTE: The Gradle Wrapper is the default and recommended way to run Gradle (https://docs.gradle.org/current/userguide/gradle_wrapper.html).
     # If your project does not have the Gradle Wrapper configured, you can use the following configuration to run Gradle with a specified version.
