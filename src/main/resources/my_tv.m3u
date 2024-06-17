@@ -159,21 +159,21 @@ http://112.235.200.247:9901/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid
 http://112.235.200.126:9901/tsfile/live/1010_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CHC电影" tvg-logo="https://live.fanmingming.com/tv/CHC电影.png" group-title="其他频道",CHC电影
 http://112.235.200.126:9901/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,group-title="movie",重温经典
+#EXTINF:-1 tvg-name="重温经典" group-title="movie",重温经典
 http://117.114.153.1:8180/TV00000000000000000007@HHZT
-#EXTINF:-1 ,group-title="movie",星空卫视
+#EXTINF:-1 tvg-name="星空卫视" group-title="movie",星空卫视
 http://117.114.153.1:8180/TV00000000000000000071@HHZT
-#EXTINF:-1 ,group-title="movie",凤凰电影
+#EXTINF:-1 tvg-name="凤凰电影" group-title="movie",凤凰电影
 http://117.114.153.1:8180/TV00000000000000000072@HHZT
-#EXTINF:-1 ,group-title="movie",STARSmovies
+#EXTINF:-1 tvg-name="STARSmovies" group-title="movie",STARSmovies
 http://117.114.153.1:8180/TV00000000000000000075@HHZT
-#EXTINF:-1 ,group-title="movie",anx电影
+#EXTINF:-1 tvg-name="anx电影" group-title="movie",anx电影
 http://117.114.153.1:8180/TV00000000000000000076@HHZT
-#EXTINF:-1 ,group-title="movie",CINEMAX电影
+#EXTINF:-1 tvg-name="CINEMAX电影" group-title="movie",CINEMAX电影
 http://117.114.153.1:8180/TV00000000000000000109@HHZT
-#EXTINF:-1 ,group-title="movie",HBO(美)
+#EXTINF:-1 tvg-name="HBO(美)" group-title="movie",HBO(美)
 http://117.114.153.1:8180/TV00000000000000000074@HHZT
-#EXTINF:-1,group-title="粤语",翡翠台
+#EXTINF:-1 tvg-name="翡翠台" group-title="粤语",翡翠台
 http://www.balala.top:9200/play/idn379c44d0/666dced1501ce2c3a52f3c84.m3u8?q=1718472401755
 #EXTINF:-1 group-title="国际时事" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Phoenix2.png",凤凰资讯
 http://113.64.145.91:8081/hls/36/index.m3u8
@@ -229,23 +229,23 @@ http://live.cooltv.top/tv/tvb.php?id=0&hq
 http://live.cooltv.top/tv/tvb.php?id=2&hq
 #EXTINF:-1 ,贵州电台交通广播 FM95.2
 http://ls.qingting.fm/live/23927.m3u8
-#EXTINF:-1 ,贵州电台经济广播 FM98.9
+#EXTINF:-1 group-title="贵州广播",贵州电台经济广播 FM98.9
 http://ls.qingting.fm/live/23935.m3u8
-#EXTINF:-1 ,贵州电台旅游广播 FM97.2
+#EXTINF:-1 group-title="贵州广播",贵州电台旅游广播 FM97.2
 http://ls.qingting.fm/live/23929.m3u8
-#EXTINF:-1 ,贵州电台音乐广播 FM91.6
+#EXTINF:-1 group-title="贵州广播",贵州电台音乐广播 FM91.6
 http://ls.qingting.fm/live/23937.m3u8
-#EXTINF:-1 ,贵州都市广播
+#EXTINF:-1 group-title="贵州广播",贵州都市广播
 http://satellitepull.cnr.cn/live/wx32gzqcgb/playlist.m3u8
-#EXTINF:-1 ,贵州故事广播
+#EXTINF:-1 group-title="贵州广播",贵州故事广播
 http://satellitepull.cnr.cn/live/wx32gzgsgb/playlist.m3u8
-#EXTINF:-1 ,贵州经济广播
+#EXTINF:-1 group-title="贵州广播",贵州经济广播
 http://satellitepull.cnr.cn/live/wx32gzjjgb/playlist.m3u8
-#EXTINF:-1 ,贵州旅游广播
+#EXTINF:-1 group-title="贵州广播",贵州旅游广播
 http://satellitepull.cnr.cn/live/wx32gzlygb/playlist.m3u8
-#EXTINF:-1 ,贵州新闻综合广播 FM94.6
+#EXTINF:-1 group-title="贵州广播",贵州新闻综合广播 FM94.6
 http://ls.qingting.fm/live/23933.m3u8
-#EXTINF:-1 ,贵州音乐广播
+#EXTINF:-1 group-title="贵州广播",贵州音乐广播
 http://satellitepull.cnr.cn/live/wx32gzyygb/playlist.m3u8
-#EXTINF:-1 ,贵州综合广播
+#EXTINF:-1 group-title="贵州广播",贵州综合广播
 http://satellitepull.cnr.cn/live/wx32gzwxwzhgb/playlist.m3u8
