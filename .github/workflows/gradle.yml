@@ -42,13 +42,15 @@ jobs:
     - name: Run with Gradle Wrapper
       run: ./gradlew run
 
-    - name: Commit and Push Changes
+    - name: Commit
       run: |
           git config --global user.name "tangbojin"
           git config --global user.email "120992728@qq.com"
           git add .
           git commit -m "更新m3u文件"
-          git push -f
+
+    - name: Push Changes
+      run: git push -f origin main
       env:
           GITHUB_TOKEN: ${{secrets.IPTV_UPDATE_ACCESS}}
 
