@@ -44,7 +44,7 @@ jobs:
       run: |
           git config --global user.name "tangbojin"
           git config --global user.email "120992728@qq.com"
-          git add my_tv.m3u
+          git add .
           git commit -m "更新m3u文件"
 
     - name: Push Changes
