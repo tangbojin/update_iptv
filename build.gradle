@@ -1,5 +1,8 @@
 plugins {
-    id 'java'
+    id 'application'
+}
+application {
+    mainClass = 'com.tbj.IPTVStreamExtractor'
 }
 
 group = 'com.tbj'

@@ -66,7 +66,6 @@ public class IPTVStreamExtractor {
                     String nextLine = reader.readLine();
                     writer.write(line + System.lineSeparator());
                     writer.write(streamUrls.get("gz" + key) + System.lineSeparator());
-                    System.out.println(key + "-----" + streamUrls.get("gz" + key));
                 } else {
                     writer.write(line + System.lineSeparator());
                 }
