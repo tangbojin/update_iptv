@@ -50,11 +50,7 @@ public class IPTVStreamExtractor {
         }
 
 //        String m3uFilePath = "E:\\my_tv.m3u";
-//        String m3uFilePath = ClassLoader.getSystemResource("my_tv.m3u").getPath();
         String m3uFilePath = "src/main/resources/my_tv.m3u";
-        System.out.println("user.dir:  "+System.getProperty("user.dir"));
-        System.out.println(IPTVStreamExtractor.class.getClassLoader().getResource("my_tv.m3u"));
-        System.out.println("m3uFilePath:  " + m3uFilePath);
 
         try (BufferedReader reader = Files.newBufferedReader(Paths.get(m3uFilePath));
              BufferedWriter writer = Files.newBufferedWriter(Paths.get(m3uFilePath + ".tmp"))) {
