@@ -112,13 +112,13 @@ http://jxcbn.ws-cdn.gitv.tv/hls/GUIZHD/index.m3u8?gMac=unknown&livodToken=c2389e
 #EXTINF:-1 tvg-name="贵州2" group-title="贵州频道" tvg-logo="https://mstatic.gzstv.com/media/streams/images/2021/01/04/SoNtDtRcuDbR.jpg",贵州-2
 http://pili-live-snapshot.live.v2gogo.com/v2gogo-live/e7b9e08f7f8d4e4ca4f41fa399aeae17.m3u8
 #EXTINF:-1 tvg-name="贵州3" group-title="贵州频道" tvg-logo="https://mstatic.gzstv.com/media/streams/images/2021/01/04/kq09201cePrU.jpg",贵州-3
-https://9bwaz8y2.gzstv.com/live/CH03_lo.m3u8?txSecret=362d3d4306ee6bb05dc4ae51b2787b2c&txTime=676432ED
+https://9bwaz8y2.gzstv.com/live/CH03_lo.m3u8?txSecret=ac62f9f56735b1b42d7dc010ea7b0473&txTime=67643A61
 #EXTINF:-1 tvg-name="贵州4" group-title="贵州频道" tvg-logo="https://mstatic.gzstv.com/media/streams/images/2021/01/04/TlQgNo6srb2p.jpg",贵州-4
-https://9bwaz8y2.gzstv.com/live/CH04_lo.m3u8?txSecret=308b5eb58314e4b496c19dff49589228&txTime=676432EE
+https://9bwaz8y2.gzstv.com/live/CH04_lo.m3u8?txSecret=6d7337bb74ad5cb8d47b1effb89c8d08&txTime=67643A61
 #EXTINF:-1 tvg-name="贵州5" group-title="贵州频道" tvg-logo="https://mstatic.gzstv.com/media/streams/images/2021/01/04/fGTUM0FqTtzG.jpg",贵州-5
-https://9bwaz8y2.gzstv.com/live/CH05_lo.m3u8?txSecret=87e2dcb55382e0da1b1f8fdc14673595&txTime=676432EE
+https://9bwaz8y2.gzstv.com/live/CH05_lo.m3u8?txSecret=de866ae00bf51ab32cc4de7dbbb0b71a&txTime=67643A62
 #EXTINF:-1 tvg-name="贵州6" group-title="贵州频道" tvg-logo="https://mstatic.gzstv.com/media/streams/images/2021/01/04/sz3062_R-Ma-.jpg",贵州-6
-https://9bwaz8y2.gzstv.com/live/CH06_lo.m3u8?txSecret=e9a2ed142e72ad22be79f5f41b6126ba&txTime=676432EE
+https://9bwaz8y2.gzstv.com/live/CH06_lo.m3u8?txSecret=e8095b8505a69ecb303c3e4f8eda0e04&txTime=67643A62
 #EXTINF:-1 tvg-name="百姓关注大连线 "group-title="贵州频道",百姓关注大连线
 rtmp://pili-publish.live.v2gogo.com/v2gogo-live/4af2bde4a4ad4f5fba9679c7d7964f06?key=5a4fc487fc095c4b
 #EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/liaoning.png" group-title="卫视频道",辽宁卫视
